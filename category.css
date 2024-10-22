@@ -1,0 +1,50 @@
+body {
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(0, 0, 0);
+}
+
+.filme-principal {
+    position: relative;
+    margin-bottom: 15%;
+    width: 100%;
+    height: 100%;
+}
+
+.segunda-secao {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-start; /* Alinhar itens ao topo */
+    gap: 5px;
+    padding: 20px 0;
+}
+
+.filmes {
+    width: 100%; /* Ocupar a largura total */
+    text-align: center; /* Centralizar o texto */
+    margin-bottom: 20px; /* Espaço entre o título e os filmes */
+}
+
+.filme-1, .filme-2, .filme-3 {
+    background-color: red; 
+    width: 200px;
+    height: 300px; 
+    border-radius: 5px; 
+}
+
+.filme-1:hover, .filme-2:hover, .filme-3:hover {
+    transform: translateY(-10px);
+}
